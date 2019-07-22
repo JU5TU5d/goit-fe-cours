@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo p::first-letter{
+    color: rgba(26, 188, 156, 255);
+    font-weight: 900;
+    
+}
+.logo{
+    display: inline-block;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wraper{
+   max-width: 1260px;
+    margin: auto;
+}
+
+li{
+
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+text-decoration: none;
+font-size: 14px;
+font-weight: 600;
+color: black;
+
+}
+
+.menu{
+    float: right;
+    margin-right: 30px;
+}
+ a:hover{
+     color: rgba(26, 188, 156, 255);
+ }
+
+ .header{
+padding: 15px 50px;}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+
+}
+h2::after{
+    content: "";
+  width: 160px; 
+  height: 7px; 
+  background-color: rgba(26, 188, 156, 255);
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.box{
+    background-color: #e9f0fd;
+    width: 255px;
+    height: 322px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.box-footer{
+    background-color: #323232;
+    width: 100%;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-transform: uppercase;
+    /* padding: 12px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    vertical-align: auto;
+}
+
+.img-1{
+width: 100%;
+margin-top: 20px;
+}
+
+.img-2{
+    margin-top: 20px;
+    margin-left: 38px;
+
+}
+
+.box-footer p,.price{
+    display: inline-block;
+}
+
+.price{
+    height: 40px;
+    width: 54px;
+    text-align: center;
+    background-color: #18020267;
+    position: absolute;
+    right: 0;
+
+}
+.name_shirt{
+    padding-left: 14px;
+}
+
+.conteiner, .conteiner-2{
+    margin: auto;
+    width: 1200px;
+    padding: 22px;
+}
+
+.img-3{
+    width: 229px;
+margin-top: 71px;
+margin-left: 13px;
+}
+
+.img-4{
+margin-top: 48px;
+margin-left: 8px;
+}
+
+.img-5{
+    margin-top: 13px;
+    margin-left: 32px;
+    }
+
+
+   .img-6{
+   margin-top: 51px;
+   width: 100%;
+    }
+
+    .img-7{
+        width: 196px;
+        margin-top: 24px;
+        margin-left: 27px;
+    }
+
+.img-8{
+    margin-top: 97px;
+    width: 90%;
+     margin-left: 13px;
+}
+
+.box-footer:hover{
+   background-color: rgba(26, 188, 156, 255);
+}
+
+
+
+.box-2{
+width: 31%;
+display: inline-block;
+overflow: hidden;
+margin-right: 20px;
+}
+
+.box-2_2{
+    margin: 0;
+    width: 31%;
+display: inline-block;
+overflow: hidden;
+}
+
+.img-9{
+    height: 260px;
+    overflow: hidden;
+}
+
+
+
+.text-1{
+    font-size: 18px;
+    color: rgba(85, 82, 82, 255);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text-1::after{
+    content: "";
+  width: 160px; 
+  height: 3px; 
+  background-color: rgba(26, 188, 156, 255);
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-2{
+    font-size: 14px;
+    color: rgba(85, 82, 82, 255);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 14px;
+color: rgba(85, 82, 82, 255);
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #4ec6ab;
+margin-top: 13px;
+color: white;
+width: 40%;
+height: 51px;
+text-align: center;
+border: none;
+}
