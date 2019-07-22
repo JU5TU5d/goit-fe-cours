@@ -1,3 +1,1 @@
-# kitty
-
-https://ivannakh.github.io/kitty/
+#JU5TU5d
