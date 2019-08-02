@@ -1,0 +1,11 @@
+@import url("./normalize.css");
+@import url("../src/bem/common/common.css");
+@import url("../src/bem/typography/typography.css");
+@import url("../src/bem/baner/baner.css");
+@import url("../src/bem/navigation/navigation.css");
+@import url("../src/bem/menu/menu.css");
+@import url("../src/bem/title-page/title-page.css");
+@import url("../src/bem/service/service.css");
+@import url("../src/bem/team/team.css");
+@import url("../src/bem/social/social.css");
+@import url("../src/bem/footer/footer.css");

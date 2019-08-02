@@ -1,0 +1,51 @@
+___comon
+    container
+    list
+    text
+    link
+
+
+baner
+
+navigation
+
+logo
+
+menu
+
+title-page
+
+btn
+
+servise
+
+title-section
+
+servise-list
+
+team
+
+team-list
+  team-list__item
+  team-list__img-wrap
+  team-list__img-owerlay
+  team-list__social
+
+social
+  social__items
+  social__btn
+  social__ico
+    social__ico_facebook
+    social__ico_twitter
+    social__ico_pinterest
+    social__ico_instagram
+
+
+
+footer
+
+copyright
+
+subscribe
+
+

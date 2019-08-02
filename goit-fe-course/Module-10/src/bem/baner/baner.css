@@ -1,0 +1,73 @@
+.baner {
+  background-image: -webkit-gradient(
+      linear,
+      left bottom, left top,
+      from(rgba(252, 227, 138, 0.9)),
+      to(rgba(243, 129, 129, 0.9))
+    ),
+    url(../../../img/bg_baner.jpg);
+  background-image: -o-linear-gradient(
+      bottom,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url(../../../img/bg_baner.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url(../../../img/bg_baner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 62.5rem;
+  padding-top: 1.8125rem;
+}
+.baner__navigation {
+  margin-bottom: 11.125rem;
+}
+.baner__title-page {
+  max-width: 53.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6.875rem;
+}
+.baner__btn {
+  font-size: 0.875rem;
+  font-weight: 700;
+  max-width: 10rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.baner__btn:hover,
+.baner__btn:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.logo__link{
+  display: block;
+  text-decoration: none;
+ }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+  .baner {
+    background-image: -webkit-gradient(
+        linear,
+        left bottom, left top,
+        from(rgba(252, 227, 138, 0.9)),
+        to(rgba(243, 129, 129, 0.9))
+      ),
+      url(../../../img/bg_baner@2x.jpg);
+    background-image: -o-linear-gradient(
+        bottom,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url(../../../img/bg_baner@2x.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url(../../../img/bg_baner@2x.jpg);
+  }
+}

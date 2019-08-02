@@ -1,0 +1,65 @@
+/* 
+social
+  social__items
+  social__btn
+  social__ico
+    social__ico_facebook
+    social__ico_twitter
+    social__ico_pinterest
+    social__ico_instagram
+*/
+.soshal-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social__items {
+  margin-right: 1px;
+}
+.social__items:last-child {
+  margin-right: 0;
+}
+.social__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #fce38a;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.social__btn:hover,
+.social__btn:focus {
+  background-color: var(--color-pink);
+}
+
+.social__ico {
+  fill: var(--color-pink);
+}
+.social__btn:hover .social__ico,
+.social__btn:focus .social__ico {
+  fill: var(--color-white);
+}
+.social__ico_facebook {
+  height: 1.625rem;
+  width: 0.8125rem;
+}
+.social__ico_twitter {
+  height: 1.375rem;
+  width: 1.625rem;
+}
+.social__ico_pinterest {
+  height: 1.625rem;
+  width: 1.3125rem;
+}
+.social__ico_instagram {
+  height: 1.625rem;
+  width: 1.625rem;
+}
