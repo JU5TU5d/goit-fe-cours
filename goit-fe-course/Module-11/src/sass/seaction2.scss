@@ -1,0 +1,184 @@
+.main__who-we {
+  text-align: center;
+  color: #999999;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  padding-bottom: 90px;
+}
+
+.our-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.team {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding-bottom: 80px;
+
+  &:hover {
+    opacity: 1;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+
+  }
+}
+
+.our-team__member-photo {
+  opacity: 1;
+}
+
+.our-team__inside-photo {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  -webkit-box-shadow: 0 0 $seaction2;
+  box-shadow: 0 0 $seaction2;
+}
+
+.each_member:hover .our-team__inside-photo:hover {
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, .8)), to(rgba(243, 129, 129, 0.8)));
+  background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, 0.8) 100%);
+  background-image: linear-gradient(0deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, 0.8) 100%);
+  -webkit-box-shadow: 10px 10px $seaction2;
+  box-shadow: 10px 10px $seaction2;
+}
+
+/*.div_forlinks:hover{
+      opacity: 1;
+      transform: translate(-52%, -52%)
+  }*/
+
+
+.our-team__div-forlinks {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, .8)), to(rgba(243, 129, 129, 0.8)));
+  background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, 0.8) 100%);
+  background-image: linear-gradient(0deg, rgba(252, 227, 138, .8) 0%, rgba(243, 129, 129, 0.8) 100%);
+  /*outline: 10px solid rgba(149, 225, 211, 1);*/
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  -webkit-box-shadow: 10px 10px $seaction2;
+  box-shadow: 10px 10px $seaction2;
+
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.team__list {
+  position: absolute;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 380px;
+  height: 470px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+
+  &:not(:last-child) {
+    margin-right: 1px;
+  }
+}
+
+.social_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  -webkit-transition: background 0.2s linear;
+  -o-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+
+  &:hover svg {
+    fill: $color-white;
+  }
+
+  &:hover {
+    background-color: $pink;
+  }
+}
+
+.team__list svg {
+  display: block;
+  width: 30px;
+  height: 32px;
+  fill: $pink;
+  -webkit-transition: fill 0.2s linear;
+  -o-transition: fill 0.2s linear;
+  transition: fill 0.2s linear
+}
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.our-team__worker-name {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 14px;
+  color: $gray;
+  padding-top: 28px;
+}
+
+.our-team__porfession {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+}
