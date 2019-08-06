@@ -1,0 +1,297 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    margin: -0.0625rem;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'RobotoSlabR';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'MontserratR';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'MontserratB';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+/* noto-serif-italic - latin */
+@font-face {
+    font-family: 'NotoSerifI';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
+         url('../fonts/noto-serif-v8-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/noto-serif-v8-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /*HEADER*/
+.header{
+    width: 58.75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.625rem;
+    padding-bottom: 6.125rem;
+}
+
+.navigation_list{
+    list-style: none;
+    
+}
+.navigation_part{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.navigation_part:not(:last-child){
+    margin-right: 2.5rem;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-family: 'MontserratR';
+    font-size: 0.875rem;
+    line-height: 2.625rem;
+    color: #222222;
+    text-transform: uppercase;
+    transition: color .2s linear;
+}
+
+.nav_link:hover{
+    color: #fed136;
+}
+
+/*MAIN sec 1*/
+
+.headline{
+    font-family: 'MontserratB';
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 76px;
+    color: #222222;
+    text-align: center;
+}
+
+.underheadline{
+    font-family: 'NotoSerifI';
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    padding-bottom: 152px;
+}
+
+/*.service_wrapper{
+    width: 480px;
+    margin: 0 auto;
+}*/
+
+.feacher_list{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 116px;
+}
+
+.each_fich{
+    display: flex;
+    width: 280px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0;
+    font-size: 0;
+    padding: 0;
+}
+.each_fich::before{
+    display: block;
+    position: absolute;
+    content: "";
+    background-image: url(../img/Icon-Basket.png);
+    width: 74px;
+    height: 74px;
+    background-repeat: no-repeat;
+    margin-top: -64px;
+
+}
+.each_fich:nth-child(2)::before {
+    background-image: url(../img/Icon-Laptop.png);
+}
+
+.each_fich:nth-child(3)::before{
+    background-image: url(../img/Icon-Locked.png);
+}
+
+.fich_head{
+    font-family: 'MontserratB';
+    font-size: 18px;
+    line-height: 56px;
+    color: #222222;
+    
+}
+
+.fich_describtion{
+   text-align: center;
+   letter-spacing: -0.025em;
+   font-family: 'RobotoSlabR';
+   font-weight: 300;
+   color: #777777;
+   font-size: 14px;
+   line-height: 1.6;
+}
+
+/*Bottom seaction*/
+.bot_container{
+    background-image: url(../img/Map\ Image.jpg);
+    background-repeat: no-repeat;
+    height: 676px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 96px;
+}
+
+.botom_headline{
+        font-size: 40px;
+        font-family: "MontserratB";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        padding-bottom: 20px;
+}
+
+.contact_us{
+    width: 944px;
+    margin: 0 auto;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.per_data{
+    width: 458px;
+}
+
+.message{
+    width: 458px; 
+}
+
+.underheadline_bot{
+    font-family: 'NotoSerifI';
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    padding-bottom: 78px;
+}
+
+.personal_info{
+    height: 50px;
+    width: 458px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+}
+
+.personal_info:valid{
+    outline: 2px solid green;
+}
+.personal_info:invalid{
+    outline: 2px solid red;
+}
+.personal_info:not(:last-child){
+    margin-bottom: 26px;
+}
+.personal_info:focus{
+    outline-offset: 0px;
+}
+
+
+.mess_button{
+    display: block;
+    font-size: 18px;
+    font-family: "MontserratB";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: #fed136;
+    height: 66px;
+    width: 240px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 auto;
+      
+}
+
+.personal_info::placeholder{
+    font-family: 'MontserratB';
+    font-size: 14px;
+    letter-spacing: -0.0025em;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding-left: 22px;
+}
+
+.textarea{
+    width: 458px;
+    border-radius: 4px;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.textarea::placeholder{
+    font-family: 'MontserratB';
+    font-size: 14px;
+    letter-spacing: -0.0025em;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding-left: 22px;
+    padding-top: 18px;
+}
+
+.textarea:focus{
+    outline-offset: 0;
+}
